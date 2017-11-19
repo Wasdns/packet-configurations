@@ -6,8 +6,8 @@ packet configurations: packet configuration files, written in Lua.
 
 - Source IP Address: `10.0.0.1`
 - Destination IP Address: `10.0.0.2`
-- Source MAC Address(dpdk0): `a0:36:9f:20:39:04`
-- Destination MAC Address(dpdk1): `a0:36:9f:20:39:06`
+- Source MAC Address: `00:00:00:00:00:01`
+- Destination MAC Address(l3switch rmac): `00:77:66:55:44:33`
 
 ## Setup Port IP
 
