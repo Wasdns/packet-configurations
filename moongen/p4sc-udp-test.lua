@@ -11,7 +11,7 @@ local log    = require "log"
 
 -- set addresses here
 local SRC_MAC           = "00:00:00:00:00:01"--nil 
-local DST_MAC		= "00:00:00:00:00:02"--nil -- resolved via ARP on GW_IP or DST_IP, can be overriden with a string here
+local DST_MAC		= "00:77:66:55:44:33"--nil -- resolved via ARP on GW_IP or DST_IP, can be overriden with a string here
 local SRC_IP_BASE	= "10.0.0.1" -- actual address will be SRC_IP_BASE + random(0, flows)
 local DST_IP		= "10.0.0.2"
 local SRC_PORT		= 1234
